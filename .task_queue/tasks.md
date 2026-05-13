@@ -10,7 +10,7 @@
 | 4 | Crear skill y cron del Orchestrator | Orchestrator | P0 | ✅ done |
 | 5 | Crear skill y cron del Backend agent | Backend | P1 | ✅ done |
 | 6 | Crear brief y specs del proyecto | Orchestrator | P0 | ✅ done |
-| 7 | Backend implementar código del project/ | Backend | P1 | ⏳ next (esperando specs) |
+|| 7 | Backend implementar código del project/ | Backend | P1 | 🔵 in-progress |
 | 8 | Agente Frontend (skill + cron job) | Frontend | P2 | ✅ infra creada |
 | 9 | Agente QA (skill + cron job) | QA | P2 | ✅ infra creada |
 | 10 | Agente DevOps (skill + cron job) | DevOps | P2 | ✅ infra creada |
