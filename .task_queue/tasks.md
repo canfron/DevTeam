@@ -10,10 +10,10 @@
 | 4 | Crear skill y cron del Orchestrator | Orchestrator | P0 | ✅ done |
 | 5 | Crear skill y cron del Backend agent | Backend | P1 | ✅ done |
 | 6 | Crear brief y specs del proyecto | Orchestrator | P0 | ✅ done |
-|| 7 | Backend implementar código del project/ | Backend | P1 | 🔵 in-progress |
-| 8 | Agente Frontend (skill + cron job) | Frontend | P2 | ✅ infra creada |
-| 9 | Agente QA (skill + cron job) | QA | P2 | ✅ infra creada |
-| 10 | Agente DevOps (skill + cron job) | DevOps | P2 | ✅ infra creada |
+| 7 | Backend implementar código del project/ | Backend | P1 | ✅ done (main.py + database.py + models.py) |
+| 8 | Frontend crear SPA | Frontend | P2 | ✅ done (index.html + static/) |
+| 9 | QA escribir tests | QA | P2 | 🔴 PENDING |
+| 10 | DevOps crear Dockerfile/docker-compose/README | DevOps | P3 | 🔴 PENDING |
 
 ## Estado del repo
 
@@ -38,8 +38,8 @@
 
 ## Qué sigue
 
-1. **Orchestrator** -> genera specs concretas (✅ hecho) y asigna tarea al Backend
-2. **Backend (75a5370fb9c9)** -> implementa project/database.py, project/models.py, project/main.py
-3. **Frontend (726238451789)** -> crea UI SPA con HTML/Tailwind/JS
-4. **QA (4cad932fe13d)** -> escribe y corre tests
-5. **DevOps (2f60d876dcb1)** -> Dockerfile, docker-compose, README
+1. ✅ Pipeline estructurado
+2. ✅ Backend implementado y commitado
+3. ✅ Frontend SPA implementado y commitado
+4. 🔄 **QA: escribir y correr tests en project/tests/test_api.py**
+5. 🔜 DevOps: Dockerfile, docker-compose.yml, README.md
